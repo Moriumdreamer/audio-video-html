@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video tags in HTML</title>
+</head>
+<style>
+    body{
+        background-image:url(./bg-image.webp);
+        background-position:center ;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        
+    }
+    button{
+        background-color:burlywood;
+    }
+    h1{
+        text-align: center;
+        color: rgba(80, 4, 4, 0.919);
+    }
+    .videos-1{
+        display: flex;
+        gap: 200px;
+        margin-top: 50px;
+    }
+    .video-1{
+margin-left: 300px;
+    }
+    .video-2{
+        margin-right: 300px;
+    }
+    .videos-2{
+        margin-top: 50px;
+        display: flex;
+        gap: 200px;   
+    }
+    .video-3{
+        margin-left: 300px;
+    }
+    .video-4{
+        margin-right: 300px;
+    }
+    .audio{
+        
+        margin-top: 50px;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <h1>Our Family Duty Is Your Family</h1>
+    <!-- Nav Section -->
+        <div class="nav-bar">
+            <a href="#"><button>Home</button></a> 
+            <a href="#"> <button> Videos</button> </a>
+            <a href="#"> <button>Contact</button> </a>
+            <a href="#"> <button> Book Sit</button></a>
+            <a href="#"><button>Galleryt</button> </a>
+            <a href="#"><button>Services</button> </a>
+        </div>
+        <!-- video tag -->
+<div class="videos-1">
+     <div class="video-1">
+    <video controls autoplay width="560" height="315" loop preload poster>
+    <source src="./vecteezy_asian-children-studying-in-the-classroom-at-school_2015823.mp4">
+    </video>
+     </div>
+     
+      <div class="video-2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kGlkLXpT5ak?si=ZZsRIilLWQPFKOmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+ <div class="videos-2">
+    <div class="video-3">
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iDg2hR1FPgA?si=9L06tBlisWxgo2X0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </div> 
+     
+      <div class="video-4">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LHT2zVYvObg?si=AY_Y4SNLx95X9kHK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div> 
+<!-- audio tag -->
+<div class="audio">
+    <audio controls muted>
+        <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3">
+    </audio>
+    </div>
+
+</body>
+</html>
